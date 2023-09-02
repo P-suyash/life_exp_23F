@@ -13,7 +13,7 @@ Here, I re-examine the analysis of Oeppen and Vaupel (2002).
 # Analysis
 
 ```{r}
-
+#Gapminder
 library(tidyverse)
 gapminder::gapminder_unfiltered  |> 
   group_by(year) |>
@@ -24,3 +24,8 @@ gapminder::gapminder_unfiltered  |>
   sumdat  
 
 ```
+```{r}
+#Test Tset
+
+```
+
